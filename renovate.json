@@ -8,7 +8,8 @@
     ":separateMultipleMinorReleases",
     ":automergePatch",
     ":automergeDigest",
-    ":disableRateLimiting"
+    ":disableRateLimiting",
+    ":dependencyDashboard"
   ],
   "abandonmentThreshold": "6 months",
   "forkProcessing": "enabled"
