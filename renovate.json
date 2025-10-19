@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":timezone(Europe/Amsterdam)",
+    ":label(renovate)",
+    ":separateMultipleMajorReleases",
+    ":separateMultipleMinorReleases",
+    ":automergePatch",
+    ":automergeDigest",
+    ":disableRateLimiting"
+  ],
+  "abandonmentThreshold": "6 months",
+  "forkProcessing": "enabled"
+}
